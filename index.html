@@ -1,11 +1,55 @@
+
+
 <style>
-    * {
-        background-color: #FF9DE7;
+    body{
+        margin: 0;
     }
+    .huge-container{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        background-color: pink;
+        margin: 0;
+    }
+    .container{
+        
+       
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+          
+    }
+    .container p{
+        font-size: large ;
+    }
+    .imagen-container{
+        height: 250px;
+        width: 250px;
+        border: 2px black solid;
+        overflow: hidden;
+        border-radius: 20%;
+        display: grid;  
+        
+    }
+    .imagen{
+        height: 100%;
+        width: 100%;
+        
+        justify-self: center;
+        
+    }
+
 </style>
-<div align="center">
+
+<div class="huge-container">
+    <div class="container">
 <h1>Hola Meliuwu</h1>
 <p>Un regalo para tulipana espero te guste uwu</p>
 
-<p> <a href="https://imgur.com/iqgYNvl"><img src="https://i.imgur.com/iqgYNvl.gif" title="source: imgur.com" /></a></p>
+<div class="imagen-container">
+    <img src="https://imgur.com/iqgYNvl.gif" alt="imagen" class="imagen">
 </div>
+</div>
+</div>
+
