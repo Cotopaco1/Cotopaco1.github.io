@@ -83,3 +83,8 @@ section form div{
 section img{
     width: 100px;
 }
+.firma{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
