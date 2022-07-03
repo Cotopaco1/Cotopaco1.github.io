@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-image: url(https://i.pinimg.com/originals/0b/6d/83/0b6d83022b5326ca71c715e7c1743dfb.jpg);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Arima', cursive;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 0%;
+    opacity: 0.6;
+    
+}
+
+
+header h1{
+    width: 100% ;
+    padding: 16 px;
+    margin: 0;
+    font-weight: 900;
+}
+
+section{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+section h1{
+
+    background-color: papayawhip;
+    font-weight: 500;
+    background: rgba(51, 170, 51, .7)
+    
+   
+}
+section input{
+    width: 300px;
+    height: 30px;
+    margin: 16px;
+    border-radius: 8px;
+}
+section input::placeholder{
+    text-align: center;
+    align-items: center;
+}
+section p{
+    border: 1px solid none;
+    
+    height: 150px;
+    width:  300px;
+    font-size: xx-large;
+    
+    border-radius: 8px;
+    
+}
+section button{
+    margin: 16px;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #31E5A6;
+    border: none;
+}
+.vikingos{
+    position: absolute;
+    bottom: 30%;
+    left: 0%;
+    width: 350px;
+    height: 350px;
+    border-radius: 16%;
+    opacity: 0.8;
+
+}
+.stephy{
+    position: absolute;
+    bottom: 30%;
+    right: 0%;
+    width: 350px;
+    height: 350px; 
+    border-radius: 16%;
+    opacity: 0.8;
+}
+.firma{
+    position: absolute;
+    bottom: 40px;
+    left: 30%;
+}
